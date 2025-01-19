@@ -12,6 +12,8 @@ int main() {
     printf("Você está participando do jogo SUPER TRUNFO!\n");
     printf("Vamos começar!\n");
 
+
+// Entrada de dados do usuário
     printf("Digite a população da cidade: \n");
     scanf("%d", &populacao);
 
@@ -24,6 +26,9 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade: \n");
     scanf("%d", &numeroPontosTuristicos);
 
+//Mensagem informando que a carta da cidade foi criada com sucesso
+    printf("\nParabéns! Você acaba de criar a carta de sua cidade!\n");
+    printf("\nInformações da cidade:\n");
 
     return 0;
 }
