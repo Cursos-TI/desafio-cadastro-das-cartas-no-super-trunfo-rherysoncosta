@@ -27,8 +27,13 @@ int main() {
     scanf("%d", &numeroPontosTuristicos);
 
 //Mensagem informando que a carta da cidade foi criada com sucesso
-    printf("\nParabéns! Você acaba de criar a carta de sua cidade!\n");
+    printf("Parabéns! Você acaba de criar a carta de sua cidade!\n");
+
     printf("\nInformações da cidade:\n");
+    printf("População: %d\n", populacao);
+    printf("Área: %lf\n", area);
+    printf("PIB: %lf\n", pib);
+    printf("Numero de Pontos Turísticos: %d\n", numeroPontosTuristicos);
 
     return 0;
 }
