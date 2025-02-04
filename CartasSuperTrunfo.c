@@ -32,10 +32,10 @@ int main() {
     scanf("%d", &populacao);
 
     printf("Digite a área da cidade: \n");
-    scanf("lf", &area);
+    scanf("%lf", &area);
 
     printf("Digite o PIB da cidade : \n");
-    scanf("lf", &pib);
+    scanf("%lf", &pib);
 
     printf("Digite o número de pontos turísticos da cidade: \n");
     scanf("%d", &numeroPontosTuristicos);
@@ -48,8 +48,12 @@ int main() {
     printf("Parabéns! Você acaba de criar a carta de sua cidade!\n");
 
     printf("\nInformações da cidade:\n");
+    printf("Estado: %s\n", estado);
+    printf("Código da Carta: %d\n", codigo);
+    printf("Nome da Cidade: %s\n", nomeDaCidade);
     printf("População: %d\n", populacao);
     printf("Área: %lf\n", area);
+    printf("Densidade Populacional: %.2f\n", densidadePopulacional);
     printf("PIB: %lf\n", pib);
     printf("Numero de Pontos Turísticos: %d\n", numeroPontosTuristicos);
 
