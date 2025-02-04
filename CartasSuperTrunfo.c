@@ -19,18 +19,27 @@ int main() {
 
 
 // Entrada de dados do usuário
+    printf("Digite o estado: \n");
+    scanf("%s", estado);
+
+    printf("Digite o código da Cata: \n");
+    scanf("%s", &codigo);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", nomeDaCidade);
+
     printf("Digite a população da cidade: \n");
     scanf("%d", &populacao);
 
     printf("Digite a área da cidade: \n");
-    scanf("%lf", &area);
+    scanf("lf", &area);
 
-    printf("Digite o PIB da cidade: \n");
-    scanf("%lf", &pib);
+    printf("Digite o PIB da cidade : \n");
+    scanf("lf", &pib);
 
     printf("Digite o número de pontos turísticos da cidade: \n");
     scanf("%d", &numeroPontosTuristicos);
-q
+
 //Mensagem informando que a carta da cidade foi criada com sucesso
     printf("Parabéns! Você acaba de criar a carta de sua cidade!\n");
 
