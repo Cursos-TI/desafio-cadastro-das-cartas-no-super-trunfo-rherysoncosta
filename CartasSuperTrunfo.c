@@ -40,6 +40,10 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade: \n");
     scanf("%d", &numeroPontosTuristicos);
 
+    //Operações matemáticas
+    densidadePopulacional = populacao / area;
+    pibPerCapita = pib / populacao;
+
 //Mensagem informando que a carta da cidade foi criada com sucesso
     printf("Parabéns! Você acaba de criar a carta de sua cidade!\n");
 
