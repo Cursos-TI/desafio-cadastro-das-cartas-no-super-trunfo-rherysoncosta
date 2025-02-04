@@ -3,10 +3,15 @@
 int main() {
 
     //  Declaração das variáveis
+    char estado[3];
+    char nomeDaCidade[50];
+    char codigo;
     int populacao;
     double area;
     double pib;
+    double pibPerCapita;
     int numeroPontosTuristicos;
+    float densidadePopulacional;
 
 //  Mensagens de boas-vindas para o usuário
     printf("Você está participando do jogo SUPER TRUNFO!\n");
@@ -25,7 +30,7 @@ int main() {
 
     printf("Digite o número de pontos turísticos da cidade: \n");
     scanf("%d", &numeroPontosTuristicos);
-
+q
 //Mensagem informando que a carta da cidade foi criada com sucesso
     printf("Parabéns! Você acaba de criar a carta de sua cidade!\n");
 
