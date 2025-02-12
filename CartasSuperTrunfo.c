@@ -84,5 +84,67 @@ int main() {
     printf("PIB: %lf\n", pib2);
     printf("Numero de Pontos Turísticos: %d\n", numeroPontosTuristicos2);
 
+    //Comparação das propriedades entre as cartas
+    printf("\nComparando as cartas:\n");
+
+    // Comparar Densidade Populacional (menor valor vence)
+    printf("Densidade Populacional: ");
+    if (densidadePopulacional1 < densidadePopulacional2) {
+        printf("CARTA 1 VENCE!\n");
+         } else if (densidadePopulacional1 > densidadePopulacional2) {
+            printf("CARTA 2 VENCE!\n");
+        } else {
+            printf("EMPATE!\n");
+        }
+    // Comparar População (maior valor vence)
+      printf("População: ");
+      if(populacao1 > populacao2) {
+        printf("CARTA 1 VENCE\n");
+      } else if (populacao1 < populacao2) {
+        printf("CARTA 2 VENCE\n");
+      } else {
+        printf("EMPATE\n");
+      }
+
+       // Comparar Área (maior valor vence)
+       printf("Área: ");
+       if(area1 > area2) {
+        printf("CARTA 1 VENCE\n");
+       } else if (area1 < area2) {
+        printf("CARTA 2 VENCE\n");
+       } else {
+        printf("EMPATE\n");
+       }
+
+       // Comparar PIB (maior valor vence)
+       printf("PIB:");
+       if(pib1 > pib2) {
+        printf("CARTA 1 VENCE\n");
+       } else if (pib1 < pib2) {
+        printf("CARTA 2 VENCE\n");
+       } else {
+        printf("EMPATE\n");
+       }
+
+       // Comparar PIB per Capita (maior valor vence)
+       printf("PIB per Capita: ");
+       if(pibPerCapita1 > pibPerCapita2) {
+        printf("CARTA 1 VENCE\n");
+       } else if (pibPerCapita1 < pibPerCapita2) {
+        printf("CARTA 2 VENCE\n");
+       } else {
+        printf("EMPATE\n");
+       }
+
+        // Comparar Número de Pontos Turísticos (maior valor vence)
+        printf("Número de Pontos Turísticos: ");
+        if(numeroPontosTuristicos1 > numeroPontosTuristicos2) {
+            printf("CARTA 1 VENCE\n");
+        } else if (numeroPontosTuristicos1 < numeroPontosTuristicos2) {
+         printf("CARTA 2 VENCE\n");
+        } else {
+            printf("EMPATE\n");
+        }
+
     return 0;
 }
